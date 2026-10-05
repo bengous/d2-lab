@@ -1,0 +1,104 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  SITE_URL: https://bengous.github.io/d2-lab/
+
+jobs:
+  check:
+    name: Check
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
+        with:
+          bun-version-file: package.json
+      - run: bun ci
+      - run: bun run check
+      - run: bun test
+      - run: bunx playwright install --with-deps chromium
+      - run: bun run e2e
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: site
+          path: apps/ias/dist/
+          if-no-files-found: error
+          retention-days: 7
+      - if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: apps/ias/dist/
+
+  deploy:
+    name: Deploy
+    needs: check
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      pages: write # deploy-pages publishes the artifact to Pages
+      id-token: write # deploy-pages proves the run's identity to Pages with an OIDC token
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: deploy
+      cancel-in-progress: false
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
+
+  verify:
+    name: Verify the live site
+    needs: deploy
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
+        with:
+          bun-version-file: package.json
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: site
+          path: site
+      - name: Wait until Pages serves this build
+        run: |
+          for attempt in $(seq 60); do
+            if curl --fail --silent --show-error --header "Cache-Control: no-cache" "$SITE_URL" --output "$RUNNER_TEMP/live.html" \
+              && cmp --silent "$RUNNER_TEMP/live.html" site/index.html; then
+              echo "live after $attempt attempts"
+              exit 0
+            fi
+            sleep 10
+          done
+          echo "Pages does not serve this build after 10 minutes" >&2
+          exit 1
+      - run: bun ci
+      - run: bunx playwright install --with-deps chromium
+      - run: bun apps/ias/e2e/smoke.e2e.ts
+        env:
+          SMOKE_URL: ${{ env.SITE_URL }}
+      - run: bun apps/ias/e2e/lighthouse.e2e.ts
+        env:
+          SMOKE_URL: ${{ env.SITE_URL }}

@@ -1,0 +1,11 @@
+[install]
+exact = true
+
+[run]
+bun = true
+
+[serve.static]
+plugins = ["bun-plugin-tailwind", "./apps/ias/public-files-plugin.ts"]
+
+[test]
+pathIgnorePatterns = ["apps/ias/e2e/**"]

@@ -1,0 +1,9 @@
+pre-commit:
+  parallel: true
+  jobs:
+    - name: format
+      run: bun run oxfmt --check
+    - name: lint
+      run: bun run oxlint --deny-warnings
+    - name: test
+      run: bun test --path-ignore-patterns 'apps/ias/e2e/**' --path-ignore-patterns 'apps/ias/test/goldens.*.test.ts'

@@ -1,0 +1,13 @@
+{
+  "upstreamSha": "bcc112d4b6d41a646f6abc6751daf78752157e40",
+  "gameVersion": "3.3.93847",
+  "generatedAt": "2026-10-05T20:08:46.489Z",
+  "generatorVersion": "2",
+  "cases": 45990,
+  "casesByKind": {
+    "structural": 24370,
+    "variant": 18398,
+    "bounds": 3220,
+    "reference": 2
+  }
+}

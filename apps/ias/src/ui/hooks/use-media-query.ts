@@ -1,0 +1,26 @@
+import { useCallback, useSyncExternalStore } from "react";
+
+/**
+ * Whether the media query matches, kept up to date as the viewport changes. The prerendered page
+ * reads `false`, and hydration then reads the viewport.
+ */
+export function useMediaQuery(query: string): boolean {
+  const subscribe = useCallback(
+    (onChange: () => void) => {
+      const list = window.matchMedia(query);
+
+      list.addEventListener("change", onChange);
+
+      return () => {
+        list.removeEventListener("change", onChange);
+      };
+    },
+    [query],
+  );
+
+  return useSyncExternalStore(
+    subscribe,
+    () => window.matchMedia(query).matches,
+    () => false,
+  );
+}

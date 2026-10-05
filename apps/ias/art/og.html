@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>D2 Lab share image</title>
+    <style>
+      @font-face {
+        font-family: "Cinzel";
+        font-weight: 600;
+        src: url("../public/fonts/cinzel-latin-600-normal.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "Alegreya Sans";
+        font-weight: 400;
+        src: url("../public/fonts/alegreya-sans-latin-400-normal.woff2") format("woff2");
+      }
+      html,
+      body {
+        margin: 0;
+      }
+      body {
+        width: 1200px;
+        height: 630px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background:
+          radial-gradient(circle 340px at 600px 250px, rgb(232 97 13 / 0.24), transparent), #060607;
+      }
+      h1 {
+        display: flex;
+        align-items: center;
+        gap: 44px;
+        margin: 0;
+        font: 600 150px/1 "Cinzel";
+        letter-spacing: 14px;
+        color: #fcf8f1;
+      }
+      h1 img {
+        height: 150px;
+      }
+      hr {
+        width: 320px;
+        height: 2px;
+        margin: 48px 0 34px;
+        border: 0;
+        background: #ce8136;
+        opacity: 0.7;
+      }
+      p {
+        margin: 0;
+        font: 400 40px "Alegreya Sans";
+        color: #bbbabb;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><img src="../public/logo.svg" alt="DII" />LAB</h1>
+    <hr />
+    <p>Diablo 2 tools and laboratory</p>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114 64">
+  <defs><linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EDC440"/><stop offset=".5" stop-color="#FA9D11"/><stop offset="1" stop-color="#E8610D"/></linearGradient></defs>
+  <path d="M3 3 14 7H36L50 15 61 32 50 49 36 57H14L3 61 11 50V14ZM22 16V48H34L42 42 47 32 42 22 34 16ZM66 3 73 7H80L87 3 82 14V50L87 61 80 57H73L66 61 71 50V14ZM90 3 97 7H104L111 3 106 14V50L111 61 104 57H97L90 61 95 50V14Z" fill="url(#gold)" fill-rule="evenodd" stroke="#9A2404" stroke-width="1.5" stroke-linejoin="miter"/>
+</svg>

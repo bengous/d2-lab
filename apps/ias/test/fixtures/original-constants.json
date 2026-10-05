@@ -1,0 +1,1864 @@
+{
+  "upstreamSha": "bcc112d4b6d41a646f6abc6751daf78752157e40",
+  "weapons": [
+    {
+      "name": "None",
+      "wsm": 0,
+      "type": "UNARMED",
+      "itemClass": "None"
+    },
+    {
+      "name": "Ancient Axe",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Ancient Sword",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Arbalest",
+      "wsm": -10,
+      "type": "CROSSBOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Archon Staff",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Ashwood Bow",
+      "wsm": 0,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Ataghan",
+      "wsm": -20,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Axe",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Balanced Axe",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Throwing"
+    },
+    {
+      "name": "Balanced Knife",
+      "wsm": -20,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Throwing"
+    },
+    {
+      "name": "Ballista",
+      "wsm": 10,
+      "type": "CROSSBOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Balrog Blade",
+      "wsm": 0,
+      "type": "TWO_HANDED_SWORD",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Balrog Spear",
+      "wsm": 10,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Javelin"
+    },
+    {
+      "name": "Barbed Club",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Bardiche",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Polearm"
+    },
+    {
+      "name": "Bastard Sword",
+      "wsm": 10,
+      "type": "TWO_HANDED_SWORD",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Battle Axe",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Battle Cestus",
+      "wsm": -10,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Battle Dart",
+      "wsm": 0,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Throwing"
+    },
+    {
+      "name": "Battle Hammer",
+      "wsm": 20,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Battle Scythe",
+      "wsm": -10,
+      "type": "TWO_HANDED",
+      "itemClass": "Polearm"
+    },
+    {
+      "name": "Battle Staff",
+      "wsm": 0,
+      "type": "TWO_HANDED",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Battle Sword",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Bearded Axe",
+      "wsm": 0,
+      "type": "TWO_HANDED",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Bec-de-Corbin",
+      "wsm": 0,
+      "type": "TWO_HANDED",
+      "itemClass": "Polearm"
+    },
+    {
+      "name": "Berserker Axe",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Bill",
+      "wsm": 0,
+      "type": "TWO_HANDED",
+      "itemClass": "Polearm"
+    },
+    {
+      "name": "Blade Bow",
+      "wsm": -10,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Blade Talons",
+      "wsm": -20,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Blade",
+      "wsm": -10,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Dagger"
+    },
+    {
+      "name": "Bone Knife",
+      "wsm": -20,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Dagger"
+    },
+    {
+      "name": "Bone Wand",
+      "wsm": -20,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Brandistock",
+      "wsm": -20,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "Broad Axe",
+      "wsm": 0,
+      "type": "TWO_HANDED",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Broad Sword",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Burnt Wand",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Caduceus",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Cedar Bow",
+      "wsm": 0,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Cedar Staff",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Ceremonial Bow",
+      "wsm": 10,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Ceremonial Javelin",
+      "wsm": -10,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Javelin"
+    },
+    {
+      "name": "Ceremonial Pike",
+      "wsm": 20,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "Ceremonial Spear",
+      "wsm": 0,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "Cestus",
+      "wsm": 0,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Champion Axe",
+      "wsm": -10,
+      "type": "TWO_HANDED",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Champion Sword",
+      "wsm": -10,
+      "type": "TWO_HANDED_SWORD",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Chu-Ko-Nu",
+      "wsm": -60,
+      "type": "CROSSBOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Cinquedeas",
+      "wsm": -20,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Dagger"
+    },
+    {
+      "name": "Clasped Orb",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Orb"
+    },
+    {
+      "name": "Claws",
+      "wsm": -10,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Claymore",
+      "wsm": 10,
+      "type": "TWO_HANDED_SWORD",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Cleaver",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Cloudy Sphere",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Orb"
+    },
+    {
+      "name": "Club",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Colossus Blade",
+      "wsm": 5,
+      "type": "TWO_HANDED_SWORD",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Colossus Crossbow",
+      "wsm": 10,
+      "type": "CROSSBOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Colossus Sword",
+      "wsm": 10,
+      "type": "TWO_HANDED_SWORD",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Colossus Voulge",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Polearm"
+    },
+    {
+      "name": "Composite Bow",
+      "wsm": -10,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Conquest Sword",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Crossbow",
+      "wsm": 0,
+      "type": "CROSSBOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Crowbill",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Crusader Bow",
+      "wsm": 10,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Cryptic Axe",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Polearm"
+    },
+    {
+      "name": "Cryptic Sword",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Crystal Sword",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Crystalline Globe",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Orb"
+    },
+    {
+      "name": "Cudgel",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Cutlass",
+      "wsm": -30,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Dacian Falx",
+      "wsm": 10,
+      "type": "TWO_HANDED_SWORD",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Dagger",
+      "wsm": -20,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Dagger"
+    },
+    {
+      "name": "Decapitator",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Demon Crossbow",
+      "wsm": -60,
+      "type": "CROSSBOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Demon Heart",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Orb"
+    },
+    {
+      "name": "Devil Star",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Diamond Bow",
+      "wsm": 0,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Dimensional Blade",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Dimensional Shard",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Orb"
+    },
+    {
+      "name": "Dirk",
+      "wsm": 0,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Dagger"
+    },
+    {
+      "name": "Divine Scepter",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Double Axe",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Double Bow",
+      "wsm": -10,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Eagle Orb",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Orb"
+    },
+    {
+      "name": "Edge Bow",
+      "wsm": 5,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Elder Staff",
+      "wsm": 0,
+      "type": "TWO_HANDED",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Eldritch Orb",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Orb"
+    },
+    {
+      "name": "Elegant Blade",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Espandon",
+      "wsm": 0,
+      "type": "TWO_HANDED_SWORD",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Ettin Axe",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Executioner Sword",
+      "wsm": 10,
+      "type": "TWO_HANDED_SWORD",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Falcata",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Falchion",
+      "wsm": 20,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Fanged Knife",
+      "wsm": -20,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Dagger"
+    },
+    {
+      "name": "Fascia",
+      "wsm": 10,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Feral Axe",
+      "wsm": -15,
+      "type": "TWO_HANDED",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Feral Claws",
+      "wsm": -20,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Flail",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Flamberge",
+      "wsm": -10,
+      "type": "TWO_HANDED_SWORD",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Flanged Mace",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Flying Axe",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Throwing"
+    },
+    {
+      "name": "Flying Knife",
+      "wsm": 0,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Throwing"
+    },
+    {
+      "name": "Francisca",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Throwing"
+    },
+    {
+      "name": "Fuscina",
+      "wsm": 0,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "Ghost Glaive",
+      "wsm": 20,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Javelin"
+    },
+    {
+      "name": "Ghost Spear",
+      "wsm": 0,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "Ghost Wand",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Giant Axe",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Giant Sword",
+      "wsm": 0,
+      "type": "TWO_HANDED_SWORD",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Giant Thresher",
+      "wsm": -10,
+      "type": "TWO_HANDED",
+      "itemClass": "Polearm"
+    },
+    {
+      "name": "Gladius",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Glaive",
+      "wsm": 20,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Javelin"
+    },
+    {
+      "name": "Glorious Axe",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Glowing Orb",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Orb"
+    },
+    {
+      "name": "Gnarled Staff",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Gorgon Crossbow",
+      "wsm": 0,
+      "type": "CROSSBOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Gothic Axe",
+      "wsm": -10,
+      "type": "TWO_HANDED",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Gothic Bow",
+      "wsm": 10,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Gothic Staff",
+      "wsm": 0,
+      "type": "TWO_HANDED",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Gothic Sword",
+      "wsm": 10,
+      "type": "TWO_HANDED_SWORD",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Grand Matron Bow",
+      "wsm": 10,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Grand Scepter",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Grave Wand",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Great Axe",
+      "wsm": -10,
+      "type": "TWO_HANDED",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Great Bow",
+      "wsm": -10,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Great Maul",
+      "wsm": 20,
+      "type": "TWO_HANDED",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Great Pilum",
+      "wsm": 0,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Javelin"
+    },
+    {
+      "name": "Great Poleaxe",
+      "wsm": 0,
+      "type": "TWO_HANDED",
+      "itemClass": "Polearm"
+    },
+    {
+      "name": "Great Sword",
+      "wsm": 10,
+      "type": "TWO_HANDED_SWORD",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Greater Claws",
+      "wsm": -20,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Greater Talons",
+      "wsm": -30,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Grim Scythe",
+      "wsm": -10,
+      "type": "TWO_HANDED",
+      "itemClass": "Polearm"
+    },
+    {
+      "name": "Grim Wand",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Halberd",
+      "wsm": 0,
+      "type": "TWO_HANDED",
+      "itemClass": "Polearm"
+    },
+    {
+      "name": "Hand Axe",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Hand Scythe",
+      "wsm": -10,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Harpoon",
+      "wsm": -10,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Javelin"
+    },
+    {
+      "name": "Hatchet Hands",
+      "wsm": 10,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Hatchet",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Heavenly Stone",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Orb"
+    },
+    {
+      "name": "Heavy Crossbow",
+      "wsm": 10,
+      "type": "CROSSBOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Highland Blade",
+      "wsm": -5,
+      "type": "TWO_HANDED_SWORD",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Holy Water Sprinkler",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Hunter's Bow",
+      "wsm": -10,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Hurlbat",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Throwing"
+    },
+    {
+      "name": "Hydra Bow",
+      "wsm": 10,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Hydra Edge",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Hyperion Javelin",
+      "wsm": -10,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Javelin"
+    },
+    {
+      "name": "Hyperion Spear",
+      "wsm": -10,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "Jagged Star",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Jared's Stone",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Orb"
+    },
+    {
+      "name": "Javelin",
+      "wsm": -10,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Javelin"
+    },
+    {
+      "name": "Jo Staff",
+      "wsm": -10,
+      "type": "TWO_HANDED",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Katar",
+      "wsm": -10,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Knout",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Kris",
+      "wsm": -20,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Dagger"
+    },
+    {
+      "name": "Lance",
+      "wsm": 20,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "Large Axe",
+      "wsm": -10,
+      "type": "TWO_HANDED",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Large Siege Bow",
+      "wsm": 10,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Legend Spike",
+      "wsm": -10,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Dagger"
+    },
+    {
+      "name": "Legend Sword",
+      "wsm": -15,
+      "type": "TWO_HANDED_SWORD",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Legendary Mallet",
+      "wsm": 20,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Lich Wand",
+      "wsm": -20,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Light Crossbow",
+      "wsm": -10,
+      "type": "CROSSBOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Lochaber Axe",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Polearm"
+    },
+    {
+      "name": "Long Battle Bow",
+      "wsm": 10,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Long Bow",
+      "wsm": 0,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Long Staff",
+      "wsm": 0,
+      "type": "TWO_HANDED",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Long Sword",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Long War Bow",
+      "wsm": 10,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Mace",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Maiden Javelin",
+      "wsm": -10,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Javelin"
+    },
+    {
+      "name": "Maiden Pike",
+      "wsm": 10,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "Maiden Spear",
+      "wsm": 0,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "Mancatcher",
+      "wsm": -20,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "Martel de Fer",
+      "wsm": 20,
+      "type": "TWO_HANDED",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Matriarchal Bow",
+      "wsm": -10,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Matriarchal Javelin",
+      "wsm": -10,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Javelin"
+    },
+    {
+      "name": "Matriarchal Pike",
+      "wsm": 20,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "Matriarchal Spear",
+      "wsm": 0,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "Maul",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Mighty Scepter",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Military Axe",
+      "wsm": -10,
+      "type": "TWO_HANDED",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Military Pick",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Mithril Point",
+      "wsm": 0,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Dagger"
+    },
+    {
+      "name": "Morning Star",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Mythical Sword",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Naga",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Ogre Axe",
+      "wsm": 0,
+      "type": "TWO_HANDED",
+      "itemClass": "Polearm"
+    },
+    {
+      "name": "Ogre Maul",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Partizan",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Polearm"
+    },
+    {
+      "name": "Pellet Bow",
+      "wsm": -10,
+      "type": "CROSSBOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Petrified Wand",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Phase Blade",
+      "wsm": -30,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Pike",
+      "wsm": 20,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "Pilum",
+      "wsm": 0,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Javelin"
+    },
+    {
+      "name": "Poignard",
+      "wsm": -20,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Dagger"
+    },
+    {
+      "name": "Poleaxe",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Polearm"
+    },
+    {
+      "name": "Polished Wand",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Quarterstaff",
+      "wsm": 0,
+      "type": "TWO_HANDED",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Quhab",
+      "wsm": 0,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Razor Bow",
+      "wsm": -10,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Reflex Bow",
+      "wsm": 10,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Reinforced Mace",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Repeating Crossbow",
+      "wsm": -40,
+      "type": "CROSSBOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Rondel",
+      "wsm": 0,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Dagger"
+    },
+    {
+      "name": "Rune Bow",
+      "wsm": 0,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Rune Scepter",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Rune Staff",
+      "wsm": 20,
+      "type": "TWO_HANDED",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Rune Sword",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Runic Talons",
+      "wsm": -30,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Sabre",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Sacred Globe",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Orb"
+    },
+    {
+      "name": "Scepter",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Scimitar",
+      "wsm": -20,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Scissors Katar",
+      "wsm": -10,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Scissors Quhab",
+      "wsm": 0,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Scissors Suwayyah",
+      "wsm": 0,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Scourge",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Scythe",
+      "wsm": -10,
+      "type": "TWO_HANDED",
+      "itemClass": "Polearm"
+    },
+    {
+      "name": "Seraph Rod",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Shadow Bow",
+      "wsm": 0,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Shamshir",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Shillelagh",
+      "wsm": 0,
+      "type": "TWO_HANDED",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Short Battle Bow",
+      "wsm": 0,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Short Bow",
+      "wsm": 5,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Short Siege Bow",
+      "wsm": 0,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Short Spear",
+      "wsm": 10,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Javelin"
+    },
+    {
+      "name": "Short Staff",
+      "wsm": -10,
+      "type": "TWO_HANDED",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Short Sword",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Short War Bow",
+      "wsm": 0,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Siege Crossbow",
+      "wsm": 0,
+      "type": "CROSSBOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Silver-edged Axe",
+      "wsm": 0,
+      "type": "TWO_HANDED",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Simbilan",
+      "wsm": 10,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Javelin"
+    },
+    {
+      "name": "Small Crescent",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Smoked Sphere",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Orb"
+    },
+    {
+      "name": "Sparkling Ball",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Orb"
+    },
+    {
+      "name": "Spear",
+      "wsm": -10,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "Spetum",
+      "wsm": 0,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "Spiculum",
+      "wsm": 20,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Javelin"
+    },
+    {
+      "name": "Spider Bow",
+      "wsm": 5,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Spiked Club",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Stag Bow",
+      "wsm": 0,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Stalagmite",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Stiletto",
+      "wsm": -10,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Dagger"
+    },
+    {
+      "name": "Stygian Pike",
+      "wsm": 0,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "Stygian Pilum",
+      "wsm": 0,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Javelin"
+    },
+    {
+      "name": "Suwayyah",
+      "wsm": 0,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Swirling Crystal",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Orb"
+    },
+    {
+      "name": "Tabar",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Thresher",
+      "wsm": -10,
+      "type": "TWO_HANDED",
+      "itemClass": "Polearm"
+    },
+    {
+      "name": "Throwing Axe",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Throwing"
+    },
+    {
+      "name": "Throwing Knife",
+      "wsm": 0,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Throwing"
+    },
+    {
+      "name": "Throwing Spear",
+      "wsm": -10,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Javelin"
+    },
+    {
+      "name": "Thunder Maul",
+      "wsm": 20,
+      "type": "TWO_HANDED",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Tomahawk",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Tomb Wand",
+      "wsm": -20,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Trident",
+      "wsm": 0,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "Truncheon",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Tulwar",
+      "wsm": 20,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Tusk Sword",
+      "wsm": 0,
+      "type": "TWO_HANDED_SWORD",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Twin Axe",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "Two-Handed Sword",
+      "wsm": 0,
+      "type": "TWO_HANDED_SWORD",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Tyrant Club",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "Unearthed Wand",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Vortex Orb",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Orb"
+    },
+    {
+      "name": "Voulge",
+      "wsm": 0,
+      "type": "TWO_HANDED",
+      "itemClass": "Polearm"
+    },
+    {
+      "name": "Walking Stick",
+      "wsm": -10,
+      "type": "TWO_HANDED",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Wand",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "War Axe",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "War Club",
+      "wsm": 10,
+      "type": "TWO_HANDED",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "War Dart",
+      "wsm": -20,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Throwing"
+    },
+    {
+      "name": "War Fist",
+      "wsm": 10,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "War Fork",
+      "wsm": -20,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "War Hammer",
+      "wsm": 20,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "War Javelin",
+      "wsm": -10,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Javelin"
+    },
+    {
+      "name": "War Pike",
+      "wsm": 20,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "War Scepter",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Mace"
+    },
+    {
+      "name": "War Scythe",
+      "wsm": -10,
+      "type": "TWO_HANDED",
+      "itemClass": "Polearm"
+    },
+    {
+      "name": "War Spear",
+      "wsm": -10,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "War Spike",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Axe"
+    },
+    {
+      "name": "War Staff",
+      "wsm": 20,
+      "type": "TWO_HANDED",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "War Sword",
+      "wsm": 0,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Sword"
+    },
+    {
+      "name": "Ward Bow",
+      "wsm": 0,
+      "type": "BOW",
+      "itemClass": "Missile"
+    },
+    {
+      "name": "Winged Axe",
+      "wsm": -10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Throwing"
+    },
+    {
+      "name": "Winged Harpoon",
+      "wsm": -10,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Javelin"
+    },
+    {
+      "name": "Winged Knife",
+      "wsm": -20,
+      "type": "ONE_HANDED_THRUSTING",
+      "itemClass": "Throwing"
+    },
+    {
+      "name": "Wrist Blade",
+      "wsm": 0,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Wrist Spike",
+      "wsm": -10,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Wrist Sword",
+      "wsm": -10,
+      "type": "CLAW",
+      "itemClass": "Claw"
+    },
+    {
+      "name": "Yari",
+      "wsm": 0,
+      "type": "TWO_HANDED_THRUSTING",
+      "itemClass": "Spear"
+    },
+    {
+      "name": "Yew Wand",
+      "wsm": 10,
+      "type": "ONE_HANDED_SWINGING",
+      "itemClass": "Staff"
+    },
+    {
+      "name": "Zweihander",
+      "wsm": -10,
+      "type": "TWO_HANDED_SWORD",
+      "itemClass": "Sword"
+    }
+  ],
+  "frames": {
+    "UNARMED": {
+      "0": [13, 8],
+      "1": [11, 12, 6],
+      "2": [12, 6],
+      "3": [16, 8],
+      "4": [15, 8],
+      "5": [14, 7],
+      "6": [16, 9],
+      "7": 15,
+      "8": 16,
+      "9": 16,
+      "10": 16,
+      "11": [16, 9]
+    },
+    "CLAW": {
+      "1": [11, 12, 6]
+    },
+    "ONE_HANDED_SWINGING": {
+      "0": [16, 10],
+      "1": [15, 7],
+      "2": [16, 7],
+      "3": [19, 9],
+      "4": [19, 9],
+      "5": [15, 7],
+      "6": [20, 12],
+      "9": 16,
+      "10": 16,
+      "11": [16, 9]
+    },
+    "ONE_HANDED_THRUSTING": {
+      "0": [15, 9],
+      "1": [15, 7],
+      "2": [16, 7],
+      "3": [19, 8],
+      "4": [19, 9],
+      "5": [17, 8],
+      "6": [19, 11],
+      "8": 16,
+      "11": [16, 8]
+    },
+    "TWO_HANDED_SWORD": {
+      "0": [20, 12],
+      "1": [23, 11],
+      "2": [18, 8],
+      "3": [21, 10],
+      "4": [23, 11],
+      "5": [18, 19, 8],
+      "6": [24, 14],
+      "9": 16,
+      "10": 16,
+      "11": [19, 11]
+    },
+    "TWO_HANDED_THRUSTING": {
+      "0": [18, 11],
+      "1": [23, 10],
+      "2": [19, 9],
+      "3": [23, 9],
+      "4": [24, 10],
+      "5": [20, 8],
+      "6": [23, 13],
+      "8": 16,
+      "11": [21, 23, 11]
+    },
+    "TWO_HANDED": {
+      "0": [20, 12],
+      "1": [19, 9],
+      "2": [19, 9],
+      "3": [17, 9],
+      "4": [20, 11],
+      "5": [18, 9],
+      "6": [18, 11],
+      "8": 16,
+      "11": [17, 10]
+    },
+    "BOW": {
+      "0": [14, 6],
+      "1": [16, 7],
+      "2": [15, 7],
+      "3": [16, 8],
+      "4": [18, 9],
+      "5": [16, 8],
+      "6": [17, 9],
+      "7": 15,
+      "11": [17, 11]
+    },
+    "CROSSBOW": {
+      "0": [20, 9],
+      "1": [21, 10],
+      "2": [20, 10],
+      "3": [20, 10],
+      "4": [20, 11],
+      "5": [20, 10],
+      "6": [20, 11],
+      "11": [18, 10]
+    },
+    "THROWING": {
+      "0": 16,
+      "1": 16,
+      "2": 16,
+      "3": 18,
+      "4": 20,
+      "5": 16,
+      "6": 20,
+      "11": [20, 10]
+    }
+  }
+}

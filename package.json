@@ -1,0 +1,34 @@
+{
+  "name": "d2-lab",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "bun apps/ias/dev.ts",
+    "build": "bun apps/ias/build.ts",
+    "check": "oxfmt --check && oxlint --deny-warnings",
+    "test": "bun test",
+    "e2e": "bun run build && bun apps/ias/e2e/dist.e2e.ts && bun apps/ias/e2e/smoke.e2e.ts && bun apps/ias/e2e/layout.e2e.ts",
+    "data:extract": "bun apps/ias/scripts/extract-data.ts",
+    "assets:extract": "bun apps/ias/scripts/extract-assets.ts",
+    "original:dump": "bun tools/ias-golden/dump-original.ts",
+    "golden:generate": "bun tools/ias-golden/generate.ts",
+    "dcc:oracle": "bun tools/d2-dcc/oracle.ts",
+    "map:walkthrough": "bun apps/ias/scripts/map-walkthrough.ts"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "@types/bun": "1.4.2",
+    "bun-plugin-tailwind": "0.1.2",
+    "oxfmt": "0.70.0",
+    "oxlint": "1.85.0",
+    "oxlint-tsgolint": "7.0.2003",
+    "oxslop": "0.1.1",
+    "playwright": "1.63.0",
+    "tailwindcss": "4.1.14",
+    "typescript": "7.0.2"
+  },
+  "packageManager": "bun@1.4.2"
+}

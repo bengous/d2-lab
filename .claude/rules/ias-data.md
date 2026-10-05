@@ -1,0 +1,22 @@
+---
+paths:
+  - "apps/ias/src/data/**"
+  - "apps/ias/scripts/**"
+  - "tools/d2r-data/**"
+  - "tools/d2-dcc/**"
+---
+
+# IAS data
+
+- `apps/ias/src/data/rules/` holds every game or original fact the engine or the UI reads. Each record carries a `source`: `calculator.js:<lines>@bcc112d` for an original rule, `<game file>:<record>@<game version>` (`runes.txt:Beast@3.3.93847`) for a rule read in the game files, `D2MOO <file>:<function>@5596f5c` for a rule the game code holds, read in D2MOO (MIT), `<external source>: <fact>` (`PureDiablo wiki, pages Breakpoints and FPS: ...`) for a fact established outside the game files, and `decision: <statement>` for a value the project decides. Plans and research notes are kept outside this repo: a `source` states its fact or decision in full, never a link to them.
+- Extend a list the engine already reads (`levelBuffs`, `runewordRequirements`, `weaponRequirements`, `floorRules`, `ceilingRules`, `fieldRules`, `tableVariableOffers`) before you add a branch in the engine.
+- `apps/ias/src/data/generated/game-data.ts` is generated: change `apps/ias/scripts/`, then run `bun run data:extract`. Never edit it by hand.
+- The game files of D2R 3.3.93847 are cached in `~/.cache/d2r-data/3.3.93847/files/data/data/global/excel/` (`runes.txt`, `uniqueitems.txt`, `skills.txt`...). Read a value there before you cite it in a `source`. `animdata.d2` is binary: read `~/.cache/d2r-data/3.3.93847/animdata.tsv`, one row per `<token><mode><weapon class>` (`0AA11HS`) with its frames per direction in the second column.
+- `data/generated/game-data.ts` holds the frames of the 8 player classes only: the mercenaries' frames are hand-written records in `rules/mercenary-frames.ts`. Its `wereforms` and `mercenaries` hold how the game draws them (`scripts/monsters.ts`: `monstats.txt` `Code`, `monstats2.txt` `BaseW` and the first component of each layer it draws, a mercenary's `hireling.txt` modes and `monseq.txt` sequence), and `monsterAnimations` their animdata by token. Its `skillModes` read `skills.txt` `anim` through the skill-to-row table of `scripts/skill-animations.ts` (Phoenix Strike is `Royal Strike`, Laying Traps `Lightning Sentry`); its `animations` hold every player animdata record in `a1`, a skill's mode or a mode a hardcoded sequence steps through (`rules/player-sequences.ts`), by `<mode><weapon class>` as the files name it (`ht1` for a claw, `animationWeaponClasses`; `1ss` or `ht2` for two weapons, `dualWieldWeaponClasses`).
+- `bun run assets:extract` encodes the portraits and the skill and weapon icons to WebP with ImageMagick 7 (`magick`), and writes the sheets of `offeredAnimations()` (`scripts/sprites/offered-animations.ts`): every build the form offers each character in each form, with one weapon or two, that `attackTimeline` plays. A new animated skill needs no list to edit. It clears `public/game/sprites/` first and writes only the components the clips draw: their outfit and weapon graphics, and for a skill in `shieldSkills` each shield of `shieldGraphics` and Holy Shield's `hsh`.
+- A skill's weapon types come from `skills.txt` (`gameData.skillItemTypes`, same skill-to-row table): `rules/skill-item-types.ts` turns them into weapon requirements for players, with the empty hand and shield rules read in D2MOO. Never hand-write one in `weaponRequirements`.
+- A minimum a build imposes goes in `rules/floors.ts`: a `runeword` rule when the engine's `neededRuneword` names the item, else a `facts` test. Its golden deviation goes in `floorDeviations` (`apps/ias/test/golden-deviations.ts`). A maximum goes in its `ceilingRules`, the golden deviation in `ceilingDeviations`.
+- `playerCharacters` (`rules/characters.ts`) is the set of player classes; a buff for players only uses `{ kind: "characters", characters: [...playerCharacters] }`.
+- `data` imports neither `engine`, `share-link` nor `ui`. A value the engine computes from the rules, like `defaultBuild`, lives in `engine`.
+- The legacy sprite files live in caches of their own: the palette and every `chars` COF and DCC in `~/.cache/d2r-data/<version>-sprites/` (`spriteCache` in `scripts/game-files.ts`), the palette and the `monsters` folders of the offered tokens in `<version>-monster-sprites/` (`monsterSpriteCache`, which fails when a token is missing: remove it, then rerun). Never add them to the main cache, which `extract.sh` owns.
+- `tools/d2-dcc/` is GPL-3.0: `apps/ias/scripts/` may import it, `apps/ias/src/` never. Run `bun run dcc:oracle` after a change to it.

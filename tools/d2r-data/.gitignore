@@ -1,0 +1,8 @@
+# Allowlist: extracted game files are Blizzard's and must never be staged.
+*
+!.gitignore
+!README.md
+!*.sh
+!*.py
+!*.cpp
+!*.patch

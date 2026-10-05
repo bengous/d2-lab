@@ -1,0 +1,6 @@
+{
+  "name": "@d2-lab/d2-dcc",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "type": "module"
+}

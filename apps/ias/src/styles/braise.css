@@ -1,0 +1,158 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+/*
+ * Latin woff2 files of @fontsource/cinzel and @fontsource/alegreya-sans 5.3.0 (OFL), served from
+ * public/fonts/: Bun inlines a small asset of a CSS file as a base64 data URL, so
+ * `public-files-plugin.ts` keeps /fonts/* external.
+ */
+@font-face {
+  font-family: "Cinzel";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url("/fonts/cinzel-latin-600-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("/fonts/alegreya-sans-latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url("/fonts/alegreya-sans-latin-500-normal.woff2") format("woff2");
+}
+
+/* Dark only: the shadcn `dark:` classes always apply. */
+@custom-variant dark (&:where(*));
+
+@theme inline {
+  --font-display: "Cinzel", Georgia, serif;
+  --font-sans: "Alegreya Sans", system-ui, sans-serif;
+  --color-now: var(--now);
+  --color-now-surface: var(--now-surface);
+  --color-next: var(--next);
+  --color-next-surface: var(--next-surface);
+  --color-figure: var(--figure);
+  --color-item: var(--item);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+}
+
+/* Measured on concept-1.png (zone means or dominant text color), except --radius. */
+:root {
+  color-scheme: dark;
+  --background: #060607;
+  --foreground: #e3cebb;
+  /* Lightness of the concept's near-white glyphs (#f8f8f8), hue of the user's #f2eee8. */
+  --figure: #fcf8f1;
+  --card: #0d0f10;
+  --card-foreground: #e3cebb;
+  --popover: #0d0f10;
+  --popover-foreground: #e3cebb;
+  --input: #101213;
+  --border: #1d2022;
+  --muted: #101213;
+  --muted-foreground: #bbbabb;
+  --primary: #ce8136;
+  --primary-foreground: #060607;
+  --ring: #ce8136;
+  --now: #f4d69b;
+  --now-surface: #3b3321;
+  --next: #a0cea7;
+  --next-surface: #223025;
+  --radius: 0.375rem;
+
+  /* Not in the concept: the item name gold of the game, _profilehd.json:FontColorGold@3.3.93847. */
+  --item: #c7b377;
+
+  /* Not in the concept: aliases and an error red for the copied shadcn components. */
+  --secondary: var(--muted);
+  --secondary-foreground: var(--foreground);
+  --accent: var(--border);
+  --accent-foreground: var(--foreground);
+  --destructive: #d9584b;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-variant-numeric: lining-nums;
+  }
+
+  /* Alegreya Sans draws old-style figures by default. */
+  table,
+  input {
+    font-variant-numeric: lining-nums tabular-nums;
+  }
+
+  /* Set by the built page on a share link: the prerendered default build is not the link's. */
+  .share-link-pending #root {
+    visibility: hidden;
+  }
+}
+
+/* Warm light that carries the banner's fire past its fade, down behind the first panels; also the banner's fallback. Needs 56rem of height. */
+@utility ember-glow {
+  background-image:
+    radial-gradient(75% 560px at 50% 0, rgb(110 36 20 / 0.34), transparent),
+    radial-gradient(28% 380px at 74% 60px, rgb(150 50 24 / 0.22), transparent);
+}
+
+/* Cold haze that rises above the skyline, so the town sits in fog instead of on a black edge. */
+@utility fog-glow {
+  background-image: linear-gradient(
+    to top,
+    rgb(46 50 54 / 0.16),
+    rgb(40 44 48 / 0.07) 45%,
+    transparent
+  );
+}
+
+@utility ember-edge {
+  border-color: var(--primary);
+  box-shadow:
+    0 0 0 1px color-mix(in oklab, var(--primary) 35%, transparent),
+    0 0 18px -4px color-mix(in oklab, var(--primary) 55%, transparent);
+}
+
+@utility ember-fill {
+  background-image: linear-gradient(
+    to bottom,
+    color-mix(in oklab, var(--primary) 14%, transparent),
+    color-mix(in oklab, var(--primary) 5%, transparent)
+  );
+}
